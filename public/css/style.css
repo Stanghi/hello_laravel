@@ -1,0 +1,38 @@
+:root {
+    --violet: brown;
+    --white: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
+    background-color: var(--violet);
+}
+
+li.first {
+    color: red;
+}
+
+li.last {
+    color: violet;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: var(--violet);
+    background-color: var(--white);
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--violet);
+    background-color: var(--white);
+}
